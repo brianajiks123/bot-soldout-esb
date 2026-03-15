@@ -125,8 +125,7 @@ async function selectOption(selector, value) {
 
 async function uploadFile(filePath, selectorInput = "input[type='file']") {
   await waitForElement(selectorInput);
-  const fileInput = await getPage().$(selectorInput);
-  await fileInput.uploadFile(filePath);
+  await getPage().locator(selectorInput).setInputFiles(filePath);
 }
 
 // ─── Read Actions ─────────────────────────────────────────────────────────────
