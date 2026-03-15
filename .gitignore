@@ -1,0 +1,89 @@
+# =========================
+# Node Modules
+# =========================
+node_modules/
+jspm_packages/
+
+# Logs
+logs/
+*.log
+
+# Runtime user data
+UserData/
+
+# =========================
+# Logs
+# =========================
+logs
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+lerna-debug.log*
+
+# =========================
+# Runtime Data
+# =========================
+pids
+*.pid
+*.seed
+*.pid.lock
+
+# =========================
+# Coverage & Test Output
+# =========================
+coverage/
+.nyc_output/
+
+# =========================
+# Build Output
+# =========================
+dist/
+build/
+out/
+.next/
+.nuxt/
+.svelte-kit/
+
+# =========================
+# Dependency Directories
+# =========================
+bower_components/
+
+# =========================
+# Environment Files
+# =========================
+.env
+.env.*
+!.env.example
+
+# =========================
+# Cache
+# =========================
+.cache/
+.parcel-cache/
+.eslintcache
+.stylelintcache
+
+# =========================
+# TypeScript
+# =========================
+*.tsbuildinfo
+
+# =========================
+# IDE / Editor
+# =========================
+.vscode/
+.idea/
+*.swp
+*.swo
+.DS_Store
+
+# =========================
+# OS Files
+# =========================
+Thumbs.db
+
+# Menu
+src/config/menus/

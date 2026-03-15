@@ -1,0 +1,20 @@
+{
+  "dependencies": {
+    "croner": "^9.1.0",
+    "dotenv": "^16.6.1",
+    "puppeteer": "^24.15.0",
+    "winston": "^3.17.0"
+  },
+  "name": "ideologis-bot-soldout",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "soldout": "node manualTrigger.js soldout",
+    "unsoldout": "node manualTrigger.js unsoldout"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": ""
+}
