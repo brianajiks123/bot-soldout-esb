@@ -20,10 +20,10 @@ TELEGRAM_CHAT_ID=your_chat_id
 ESB_BASE_URL=erp_base_url
 
 # Credentials ESB ERP
-IDEO_USERNAME=your_ideo_username
-IDEO_PASSWORD=your_ideo_password
-BURJO_USERNAME=your_burjo_username
-BURJO_PASSWORD=your_burjo_password
+ESB_IDEO_USERNAME=your_ideo_username
+ESB_IDEO_PASSWORD=your_ideo_password
+ESB_BURJO_USERNAME=your_burjo_username
+ESB_BURJO_PASSWORD=your_burjo_password
 
 # Logger (default: debug)
 LOG_LEVEL=debug

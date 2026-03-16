@@ -1,11 +1,11 @@
 const credentials = {
   ideo: {
-    username: process.env.IDEO_USERNAME || '',
-    password: process.env.IDEO_PASSWORD || '',
+    username: process.env.ESB_IDEO_USERNAME || '',
+    password: process.env.ESB_IDEO_PASSWORD || '',
   },
   burjo: {
-    username: process.env.BURJO_USERNAME || '',
-    password: process.env.BURJO_PASSWORD || '',
+    username: process.env.ESB_BURJO_USERNAME || '',
+    password: process.env.ESB_BURJO_PASSWORD || '',
   },
 };
 
