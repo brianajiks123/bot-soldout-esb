@@ -8,7 +8,7 @@
   "overrides": {
     "yauzl": "^3.2.1"
   },
-  "name": "ideologis-bot-soldout",
+  "name": "bot-soldout-esb",
   "version": "1.0.0",
   "main": "index.js",
   "scripts": {
